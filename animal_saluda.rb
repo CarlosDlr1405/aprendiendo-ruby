@@ -1,9 +1,8 @@
-class Animales
+class Animal
   def initialize(nombre, color, tamaño)
     @nombre = nombre
     @color = color
-    @tamaño = tamaño
-      
+    @tamaño = tamaño 
   end
   
   def caminar
@@ -13,10 +12,9 @@ class Animales
   def correr
     print "Hola soy ", @nombre , ", mi color es ", @color, " , mi tamaño es ", @tamaño, " y voy corriendo"
   end
-
 end
   
-class Perro < Animales
+class Perro < Animal
   def correr
   super
     print (", Guuaau")
@@ -27,7 +25,7 @@ class Perro < Animales
   end
 end
   
-class Gato < Animales
+class Gato < Animal
   def caminar
   super
     print (", Miaaaauu")
