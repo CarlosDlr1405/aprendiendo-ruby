@@ -1,4 +1,4 @@
-class Animales
+class Animal
   def initialize(nombre, color, tamaño)
     @nombre = nombre
     @color = color
@@ -21,14 +21,14 @@ class Animales
   end
 end
 
-class Perro < Animales
+class Perro < Animal
   def saludar
     super
     print (", Guuaau")
   end
 end
 
-class Gato < Animales
+class Gato < Animal
   def saludar
     super
     print (", Miaaaauu")
