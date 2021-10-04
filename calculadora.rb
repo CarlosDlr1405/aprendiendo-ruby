@@ -2,7 +2,6 @@ class Calculadora
   def initialize(value_one, value_two)
     @value_one = value_one
     @value_two = value_two
-    mensaje
   end
 
   def sum
